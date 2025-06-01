@@ -17,6 +17,6 @@ This project involves:
 Develop Power BI dashboard to deliver detailed insights into:
 - **Insurance and diagnosis insights**
 - **Doctors performance**
-- **Patient trends**
+- **Patient trend over years**
 - **Patient satisfaction**
 
