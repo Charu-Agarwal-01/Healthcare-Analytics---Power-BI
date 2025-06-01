@@ -14,9 +14,10 @@ This project involves:
 
 
 #### Objective:
-Develop Power BI dashboard to deliver detailed insights into:
+Develop Power BI dashboard to deliver overall insights as well as statewise and yearwise analysis for:
 - **Insurance and diagnosis insights**
 - **Doctors performance**
 - **Patient trend over years**
 - **Patient satisfaction**
+- **Various KPIs**
 
