@@ -83,3 +83,30 @@ Overview:
 | Nationality              | Nationality information of each doctor.
 | Age                      | Age information of each doctor.
 | Image                    | Image of each doctor.
+
+
+7. Visits
+- Purpose: Stores healthcare visit information of patients.
+- Columns:
+
+| Column Name              | Description                                                                                   
+|--------------------------|--------------------------------------------------------------------------------------------------------------|
+| Date of visit            | Date of visit of each patient.                 
+| Patient ID               | A unique identifier assigned to each patient.
+| Provider ID              | Provider ID corresponding to every patient.
+| Department ID            | Department ID corresponding to every patient.
+| Diagnosis ID             | Diagnosis ID corresponding to every patient.
+| Procedure ID             | Procedure ID corresponding to every patient.
+| Insurance ID             | Insurance ID corresponding to every patient.
+| Service type             | Type of serive required by patient ie. inpatient, outpatient or emergency.
+| Treatment Cost           | Cost of treatment .
+| Medication cost          | Cost of medications.
+| Patient satisfaction score | satisfaction score given by each patient.
+| Emergency visits         | Whether it is an emergency visit or not.
+| Payment Status           | Payment done or pending.
+| Discharged date          | Date of discharge.
+| Admitted date            | Date of getting admitted.
+| Room type                | Type of room provided to the patients during admit.
+| Insurance coverage       | Amout covered by insurance.
+| Room charges             | Chrage of room per day.
+| length of stay           | Length of stay in the healthcare room.
