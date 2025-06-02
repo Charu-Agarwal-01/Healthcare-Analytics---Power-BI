@@ -1,0 +1,85 @@
+
+-------------------------------------------------------------------------------------------------------------------------
+Overview:
+    The script consists of description of the tables.
+-------------------------------------------------------------------------------------------------------------------------
+
+
+1. Cities
+- Purpose: Stores city and state information.
+- Columns:
+
+| Column Name               | Description                                                                                   
+|---------------------------|--------------------------------------------------------------------------------------------------------------|
+| city                      | Names of the cities patients and doctors belong to.
+| city_ID                   | Unique numerical identifier assigned to each city.                                        
+| state                     | State to which each city belongs.                                         
+
+
+ 2. Department
+- Purpose: Provides information about various departments of the healthcare.
+- Columns:
+
+| Column Name              | Description                                                                                    |
+|--------------------- ----|---------------------------------------------------------------------------------------------------------------|
+| Department               | Describes the various departments present in the healthcare.         
+| Department ID            | A unique identifier assigned to each Department.                                               |
+
+
+
+3. Diagnosis
+- Purpose: Stores diagnosis information.
+- Columns:
+
+| Column Name              | Description                                                                                   
+|--------------------------|--------------------------------------------------------------------------------------------------------------|
+| diagnosis                | Desribes the diagnosis information that a patient may get diagnosed with.                 
+| diagnosis ID             |  A unique identifier assigned to each diagnosis.      
+
+
+4. Insurance
+- Purpose: Stores insurance information.
+- Columns:
+
+| Column Name              | Description                                                                                   
+|--------------------------|--------------------------------------------------------------------------------------------------------------|
+| insurance provider       | Describes the various insurance providers that patients took the insurance from.                 
+| insurance ID             |  A unique identifier assigned to each insurance provider. 
+
+
+5. Patients
+- Purpose: Stores patients information.
+- Columns:
+
+| Column Name              | Description                                                                                   
+|--------------------------|--------------------------------------------------------------------------------------------------------------|
+| Patient name             | Names of the patients who came for diagnosis.                 
+| Patient ID               |  A unique identifier assigned to each patient. 
+| Gender                   | Gender information of each patient.
+| Age                      | Age information of each patient.
+| City ID                  | City ID of each patient.
+| Race                     | Race of each patient.
+
+
+6. Procedures
+- Purpose: Stores procedures information that are used in various diagnosis.
+- Columns:
+
+| Column Name              | Description                                                                                   
+|--------------------------|--------------------------------------------------------------------------------------------------------------|
+| Procedure                | Different procedures that doctors use to diagnose a patient.                 
+| Procedure ID             |  A unique identifier assigned to each procedure. 
+
+
+7. Providers
+- Purpose: Stores providers information.
+- Columns:
+
+| Column Name              | Description                                                                                   
+|--------------------------|--------------------------------------------------------------------------------------------------------------|
+| Provider name            | Names of the doctors available in the healthcare.                 
+| Provider ID              | A unique identifier assigned to each doctor. 
+| Gender                   | Gender information of each doctor.
+| Nationality              | Nationality information of each doctor.
+| Age                      | Age information of each doctor.
+| Image                    | Image of each doctor.
